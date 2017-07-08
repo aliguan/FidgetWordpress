@@ -1,0 +1,309 @@
+white/*
+Theme Name: Fidget Theme
+Theme URI: FidgeTiddiesTM
+Author: Alice Guan
+Description: A theme for fidgeters
+Version: 0.1
+License: Open
+Text Domain: fidget_theme
+*/
+
+
+* {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+     overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+h2, h4, h6 {
+    font-weight: 100;
+}
+
+h1, h1 a {
+    font-size: 3.5rem;
+    text-decoration: none;
+}
+h2 {
+    font-size: 3.0rem;
+}
+h3, h3 a {
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+h4 {
+    font-size: 2.0rem;
+}
+h5 {
+    font-size: 1.5rem;
+}
+h6 {
+    font-size: 1.0rem;
+}
+p {
+    font-weight: lighter;
+    text-indent: 30px;
+}
+.single-post-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+/*--- Menu --- */
+
+header {
+ z-index: 999;
+ position: absolute;
+  width: 100%;
+}
+.blank-menu-header {
+  
+   padding: 5px;
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+   /*background-color: rgba(255, 255,255, 1);*/
+   color: white;
+   transition: 0.4s ease-in-out;
+   font-weight: 300;
+}    
+
+.blank-menu-header:hover {
+   background-color: #b3a3d4!important;
+}
+  
+
+.blank-menu-header i {
+   color: white;
+   font-size: 17px;
+   margin-right: 3px;
+}
+
+.blank-menu-header i:hover {
+   color: black;
+   font-size: 17px;
+   margin-right: 3px;
+}
+
+
+.blank-menu-header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 18px;
+    margin-left: 25px;
+}
+.blank-menu-header li {
+    display: inline;
+    text-transform: uppercase;
+    padding: 5px 20px 5px 40px;
+}
+.blank-menu-header ul li a {
+    vertical-align: middle;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s ease-in-out;
+}
+.blank-menu-header ul li a:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #fec82f; 
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 60px;
+}
+
+#video {
+    margin-top: -50px;
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+}
+
+video#bgvid { 
+    /*top: 88%;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -100;
+    /*background: url() no-repeat;*/
+    background-size: cover;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+.about {
+    background: #F1F1F1;
+     padding: 50px;  
+}
+
+.howitworks {
+    padding: 80px 150px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.howitworks h2{
+    margin-bottom: 60px;
+}
+
+.howitworks ul {
+    padding: 30px 0;
+}
+
+.howitworks ul li {
+    width: calc(100%/7);
+    float: left;
+    list-style-type: none;
+}
+
+.howitworks ul li img {
+    width: 80%;
+    float: left;
+}
+
+.productpics {
+    padding: 35px;
+}
+
+
+.manu {
+    text-align: center;
+}
+
+.manu img {
+    width: 15%;
+}
+.about p {
+    font-weight: 400;
+    width: 55%;
+    margin: 23px auto;
+    
+}
+
+.gallery {
+    text-align: center;
+}
+
+#myFooter {
+    background-color: #3a3f46;
+    color: white;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .info{
+    text-align: justify; 
+    color: #afb0b1;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter .logo{
+    margin-top: 10px;
+}
+
+#myFooter .second-bar .logo a{
+    color:white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #33373e;
+    text-align: center;
+}
+
+#myFooter .second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+#myFooter .second-bar a:hover {
+    text-decoration: none;
+}
+
+#myFooter .social-icons {
+    float:right;
+}
+
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}
+
+
